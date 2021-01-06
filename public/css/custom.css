@@ -1,0 +1,89 @@
+body,html {
+    font-family: 'Roboto', sans-serif;
+    height:100%;
+    overflow:auto;
+  }
+.navbar-brand
+{
+    color: blue !important;
+}
+.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 40%;
+    position: absolute;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+.nav-link:hover
+{
+    color: blue !important;
+    transition: 0.8s;
+}
+.page-footer
+{
+    background: #f8f9fa;
+}
+.footer-copyright
+{   
+    color: white;
+    background-color: #002D62;
+}
+p
+{   
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: rgb(0, 0, 0);
+    
+}
+.noidung
+{
+    padding-bottom: 20px;
+}
+.text-uppercase
+{   
+    color: blue;
+    padding-bottom: 13px;
+    font-size: 27px;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.text-uppercase:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 4.5px solid blue;
+    }
+.fa:hover
+{   
+    color: blue;
+    transition: 0.8s;
+}
+.content
+{
+    padding-top: 10px;
+    text-decoration: none;
+    color:black;
+    text-decoration: brown;
+}
+.content:hover
+{
+    color:blue;
+    transition: 0.6s;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ 

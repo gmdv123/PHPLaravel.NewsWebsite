@@ -1,0 +1,36 @@
+.index
+{
+    width: 1140px;
+    margin: auto;
+}
+.card-title
+{
+    color: blue;
+}
+.tieude
+{
+    color: blue !important;
+    color: #111; font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 25px; font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1;
+}
+.tieude
+{   
+    color: #002D62;
+    padding-bottom: 13px;
+    font-size: 25px;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.tieude::before
+ {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 4.5px solid blue;
+}
